@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_login"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:elevation="@dimen/_1sdp"
+        android:theme="@style/ToolbarTheme" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <!--************************************************-->
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:gravity="bottom"
+                android:hint="@string/ListText"
+                android:minHeight="@dimen/_48sdp"
+                android:textColorHint="@color/text_color">
+
+                <com.application.furry_track.CustomeView.MyEditTextView
+                    android:id="@+id/edit_ListText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="@drawable/focus"
+                    android:cursorVisible="true"
+
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+
+                    android:minHeight="@dimen/_34sdp"
+                    android:paddingLeft="@dimen/_14sdp"
+                    android:paddingRight="@dimen/_8sdp"
+                    android:textColor="@color/text_color"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/_13sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:gravity="bottom"
+                android:hint="@string/Spend"
+                android:minHeight="@dimen/_48sdp"
+                android:textColorHint="@color/text_color">
+
+                <com.application.furry_track.CustomeView.MyEditTextView
+                    android:id="@+id/edit_Spend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="@drawable/focus"
+                    android:cursorVisible="true"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+                    android:minHeight="@dimen/_34sdp"
+                    android:paddingLeft="@dimen/_14sdp"
+                    android:paddingRight="@dimen/_8sdp"
+                    android:textColor="@color/text_color"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/_13sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_dob_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/focus"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:padding="@dimen/_3sdp"
+                    android:src="@drawable/calendar"
+                    app:tint="@color/text_color" />
+
+                <com.application.furry_track.CustomeView.custome_Textview
+                    android:id="@+id/txt_dob_date"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/Spenddate"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/_13sdp" />
+
+            </LinearLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:gravity="bottom"
+                android:hint="@string/remarks"
+                android:minHeight="@dimen/_48sdp"
+                android:textColorHint="@color/text_color">
+
+                <com.application.furry_track.CustomeView.MyEditTextView
+                    android:id="@+id/edit_remarks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="@drawable/focus"
+                    android:cursorVisible="true"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:minHeight="@dimen/_34sdp"
+                    android:paddingLeft="@dimen/_14sdp"
+                    android:paddingRight="@dimen/_8sdp"
+                    android:textColor="@color/text_color"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/_13sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+            <com.application.furry_track.CustomeView.custome_Textview
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_37sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+
+                android:background="@drawable/round_border"
+                android:gravity="center"
+                android:paddingLeft="@dimen/_90sdp"
+                android:paddingRight="@dimen/_90sdp"
+                android:text="@string/submit"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

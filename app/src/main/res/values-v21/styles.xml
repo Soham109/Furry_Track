@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Header">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:elevation">6dp</item>
+    </style>
+
+
+</resources>

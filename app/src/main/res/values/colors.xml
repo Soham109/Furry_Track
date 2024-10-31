@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5CB15A</color>
+    <color name="colorPrimaryDark">#5CB15A</color>
+    <color name="colorAccent">#5CB15A</color>
+    <!--<color name="colorAccent">#5CB15A</color>-->
+    <color name="app_color">#5CB15A</color>
+
+
+
+    <color name="sub_color">#A11C1F</color>
+    <color name="red_color">#ff5645</color>
+    <color name="blue_bg_light">#33A11C1F</color>
+    <color name="red_select_cat">#f83332</color>
+    <!--<color name="gray">#d8dade</color>-->
+    <color name="chech_text">#333333</color>
+    <color name="sub_text">#386485</color>
+    <color name="dashboard_text">#13476F</color>
+    <color name="th_text">#7c96a8</color>
+    <color name="light_yello">#fff8e5</color>
+    <color name="cca_background">#205CB15A</color>
+
+    <color name="trans">#00000000</color>
+    <color name="gray_light_place">#949494</color>
+    <color name="background_edit">#D4D4D4</color>
+
+    <color name="text_second">#7D7D7D</color>
+    <color name="trans_black">#80000000</color>
+    <color name="background">#312F30</color>
+    <color name="icon_color">#A3A3A3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <!--<color name="gray">#f6f7fa</color>-->
+    <!--<color name="gray">#f7f8fa</color>-->
+    <color name="gray">#f3f3f3</color>
+    <color name="light_gray_text">#A4A4A4</color>
+    <color name="green">#00b200</color>
+    <color name="green_new">#103C8D</color>
+    <color name="trs_black">#26000000</color>
+    <color name="trs_green">#605CB15A</color>
+    <color name="home_button">#f8f8fa</color>
+
+    <color name="text_color">#3F3F3F</color>
+    <!--<color name="gray">#d8dade</color>-->
+    <color name="gray_bottam">#ebebeb</color>
+    <color name="sky">#e5f2fb</color>
+    <color name="tras_sky">#40e5f2fb</color>
+    <color name="text_details">#4a4a4a</color>
+    <color name="rad_t">#33f98da5</color>
+    <color name="tra_blue">#B30F8FB2</color>
+    <color name="app_blue">#400F8FB2</color>
+    <color name="splash_back">#1A1915</color>
+    <color name="tran">#403a56ff</color>
+    <color name="tran_g">#200F8FB2</color>
+    <color name="pink">#FF1493</color>
+    <color name="first_text">#3385da</color>
+    <array name="array_dot_active">
+        <item>@color/app_color</item>
+        <item>@color/app_color</item>
+        <item>@color/app_color</item>
+        <item>@color/app_color</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/text_color</item>
+        <item>@color/text_color</item>
+        <item>@color/text_color</item>
+        <item>@color/text_color</item>
+    </array>
+
+    <!--<color name="green_light">#d9ffd9</color>-->
+    <!--<color name="green_light">#ddfbdd</color>-->
+    <color name="green_light">#e7fce7</color>
+    <color name="splash">#242162</color>
+    <color name="chat">#21a0e6</color>
+    <!--*********   dot   **********-->
+
+    <color name="primaryDarkColor">#5870cb</color>
+    <color name="light_gray">#B4B4B4</color>
+
+
+   <!-- <color name="contact">#00BEBE</color>
+    <color name="green_type">#00D0A8</color>
+    <color name="lightgreen_type">#3300D0A8</color>
+    <color name="teams">#9c5ddb</color>
+    <color name="light_teams">#339c5ddb</color>
+
+    <color name="light_contact">#3300BEBE</color>
+    <color name="logout">#D00058</color>
+    <color name="light_logout">#33D00058</color>
+    <color name="add_clanic">#4DD0E1</color>
+    <color name="light_app_color">#335870CB</color>
+    <color name="light_primaryDarkColor">#335870cb</color>
+
+    <color name="male">#5870CB</color>
+    <color name="female">#CB58B0</color>
+    <color name="bottam_menu">#161C38</color>-->
+
+</resources>

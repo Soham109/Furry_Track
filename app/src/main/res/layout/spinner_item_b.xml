@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.application.furry_track.CustomeView.custome_Textview xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_30sdp"
+    android:layout_gravity="center_vertical"
+    android:layout_marginTop="2dp"
+    android:background="@color/gray"
+    android:gravity="center_vertical|left"
+    android:maxLines="1"
+    android:paddingLeft="@dimen/_3sdp"
+    android:paddingRight="@dimen/_3sdp"
+
+    android:textColor="@color/text_color"
+    android:textSize="@dimen/_11sdp" /><!--android:singleLine="true"-->
+    <!--android:background="@drawable/undetline"-->

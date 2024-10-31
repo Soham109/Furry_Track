@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.optionmenu.MainActivity">
+
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/plus"
+        android:title=""
+        app:iconTint="@color/app_color"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title=""
+        app:iconTint="@color/red_color"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/notification_aaa"
+        android:title=""
+        android:visible="false"
+        app:actionLayout="@layout/notification_layout"
+        app:showAsAction="always" />
+
+</menu>

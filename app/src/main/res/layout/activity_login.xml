@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_abc"
+    android:orientation="vertical">
+
+
+    <!--    <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/trs_black" />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="4.9"
+
+        android:orientation="vertical">
+
+
+        <!-- <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/_130sdp"
+             android:layout_marginTop="@dimen/_20sdp"
+             app:srcCompat="@drawable/icon" />-->
+
+        <FrameLayout
+            android:id="@+id/frm_image"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:visibility="gone">
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/img_doctor_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+
+                android:scaleType="fitXY"
+
+                android:src="@drawable/man_a"
+                app:riv_border_color="@color/text_details"
+                app:riv_border_width="@dimen/_2sdp"
+
+
+                app:riv_corner_radius="@dimen/_50sdp" />
+
+
+            <RelativeLayout
+                android:id="@+id/rel_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+
+                <com.makeramen.roundedimageview.RoundedImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:background="@drawable/profile_update_design"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:padding="@dimen/_3sdp"
+                    app:srcCompat="@drawable/ic_icon_feather_camera"
+                    app:tint="@color/text_color" />
+
+
+            </RelativeLayout>
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/half_camera"
+                ></LinearLayout>-->
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lin_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:background="@drawable/edit_layout"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/user" />
+
+            <com.application.furry_track.CustomeView.MyEditTextView
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@color/trans"
+                android:cursorVisible="true"
+                android:gravity="center_vertical"
+                android:hint="@string/name"
+                android:imeOptions="actionSend"
+                android:inputType="textEmailAddress"
+                android:maxLength="55"
+
+                android:paddingRight="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/_13sdp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_contct"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:background="@drawable/edit_layout"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/phone" />
+
+            <com.application.furry_track.CustomeView.MyEditTextView
+                android:id="@+id/input_contct"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@color/trans"
+                android:cursorVisible="true"
+                android:gravity="center_vertical"
+                android:hint="@string/ContactNo"
+                android:imeOptions="actionSend"
+                android:inputType="textEmailAddress"
+                android:maxLength="12"
+
+                android:paddingRight="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/_13sdp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+        </LinearLayout>
+
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/img_blank"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_140sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:scaleType="fitXY"
+
+            android:src="@drawable/icon"
+
+
+            app:riv_corner_radius="@dimen/_5sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:background="@drawable/edit_layout"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/mail" />
+
+            <com.application.furry_track.CustomeView.MyEditTextView
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@color/trans"
+                android:cursorVisible="true"
+                android:gravity="center_vertical"
+                android:hint="@string/email"
+                android:imeOptions="actionSend"
+                android:inputType="textEmailAddress"
+                android:maxLength="55"
+
+                android:paddingRight="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/_13sdp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+
+            android:background="@drawable/edit_layout"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/lock" />
+
+            <com.application.furry_track.CustomeView.MyEditTextView
+                android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@color/trans"
+                android:cursorVisible="true"
+                android:gravity="center_vertical"
+                android:hint="@string/password"
+
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLength="50"
+
+                android:paddingRight="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/_13sdp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lin_c_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:background="@drawable/edit_layout"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:padding="@dimen/_7sdp"
+                android:src="@drawable/lock" />
+
+            <com.application.furry_track.CustomeView.MyEditTextView
+                android:id="@+id/input_c_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@color/trans"
+                android:cursorVisible="true"
+                android:gravity="center_vertical"
+                android:hint="@string/c_password"
+
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLength="50"
+
+                android:paddingRight="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/_13sdp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+        </LinearLayout>
+
+        <com.application.furry_track.CustomeView.custome_Textview_bold
+            android:id="@+id/txt_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_50sdp"
+
+            android:background="@drawable/round_button"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textAllCaps="true"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <com.application.furry_track.CustomeView.custome_Textview_bold
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_50sdp"
+
+            android:background="@drawable/round_button"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textAllCaps="true"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_15sdp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/lin_resend_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.application.furry_track.CustomeView.custome_Textview
+                android:id="@+id/txt_sign_in"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_37sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:text="@string/login"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_14sdp"
+                android:visibility="gone" />
+
+            <com.application.furry_track.CustomeView.custome_Textview
+                android:id="@+id/txt_regi"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_37sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:text="@string/regi"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_14sdp" />
+
+            <com.application.furry_track.CustomeView.custome_Textview
+                android:id="@+id/txt_forgot"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_37sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_weight="1.2"
+                android:gravity="center"
+
+                android:text="@string/ForgotPassword"
+                android:textColor="@color/app_color"
+                android:textSize="@dimen/_13sdp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.application.furry_track.CustomeView.custome_Textview
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="All Rights Reserved to Furry Track  - 2024"
+        android:textColor="@color/text_color" />
+</LinearLayout>

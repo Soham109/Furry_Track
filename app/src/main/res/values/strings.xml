@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">Furry Track</string>
+
+
+    <string name="backtoexit">Please click BACK again to exit..</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false"></string>
+    <string name="plzwait">Please  wait...</string>
+    <string name="nointernet">No internet connection...</string>
+    <string name="check_internet">Please Check Your internet connection...</string>
+    <string name="base_url">http://admin.furrytrack.com/api/</string>
+    <string name="image_base_url">http://wcfpostpetcareapp.techpolice.in/TechPoliceMedia/</string>
+    <string name="post_base_url" translatable="false">http://wcfpostpetcareapp.techpolice.in/ElectionService.svc/InsertImageData</string>
+
+    <string name="about_us_url">http://admin.furrytrack.com/home/about</string>
+    <string name="contact_us_url">http://admin.furrytrack.com/home/Contact</string>
+
+
+
+    <!--*********************************************************************-->
+    <string name="veri_">Verify OTP</string>
+    <string name="no_record">No Record Found</string>
+    <!--***************     login     **************-->
+    <string name="btn_login">Login</string>
+    <string name="ForgotPassword">Forgot Password?</string>
+    <string name="regi">Registration</string>
+
+
+    <string name="comment">Comment</string>
+
+
+    <string name="login">Sign in</string>
+    <string name="register">Sign up</string>
+    <string name="save">save</string>
+    <string name="place_order">place order</string>
+    <string name="update">Update</string>
+    <string name="not_allowed">not allowed to update this record</string>
+
+    <string name="with_your">with your phone number</string>
+    <string name="personal_info">Add Owner personal information</string>
+
+    <string name="with_your_reg">with your Name,Number and Email</string>
+    <string name="otp_verifi">OTP Verification</string>
+    <string name="an_authen">An authentication code has been sent to</string>
+    <string name="verify_now">verify now</string>
+
+    <string name="resend_otp"><u>Resend OTP</u></string>
+    <string name="otp">ENTER OTP</string>
+    <string name="next">NEXT</string>
+    <string name="submit">Submit</string>
+    <string name="skip"></string>
+    <string name="start">BEGIN</string>
+
+    <string name="slide_1_desc">Discover the convenience of Furry Track, your all-in-one solution for organizing and accessing all pet-related records.</string>
+    <string name="slide_2_desc">Effortlessly manage and track your expenditures and itemised details of your pet’s nutrition and grooming routines with Furry Track.</string>
+
+
+    <string name="slide_3_desc">Seamlessly track, view, and share your pet’s complete medical history with FurryTrack. Simplify your pet care experience by keeping all health records organized and accessible at the touch of a button!</string>
+
+    <string name="slide_1_title">Welcome to Furry Track</string>
+    <string name="slide_2_title">Nutrition and Grooming Log</string>
+    <string name="slide_3_title">Comprehensive Pet Medical Record Management</string>
+    <string name="notification">Notification</string>
+
+
+
+
+    <!--<string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    &lt;!&ndash;*******************      option menu       **********************&ndash;&gt;
+    <string name="about_us">About Us</string>
+    <string name="noti">Notification</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="feedback">Feedback</string>
+    <string name="v_feedback">Volunteer Feedback</string>
+    <string name="rateus">Rate Us</string>
+    <string name="logout">Logout</string>
+    <string name="version">V 1.0</string>
+    <string name="setting">Setting</string>-->
+
+    <!--************************      log out    *************************-->
+    <string name="logouts">Are you sure you want to logout</string>
+    <string name="allocate">Are you sure you want to select this Place ?</string>
+    <string name="logoutss">Are you sure you want to Delete</string>
+    <!--<string name="logoutss">Are you sure you want to Delete</string>
+    <string name="logoutupdate">Are you sure you want to Update This Record</string>-->
+    <!--<string name="ride_message">Dear citizen have you Reached safely We Found you have Ride Safely request if yes then please Confirm .Thank you She Team Vadodara City</string>-->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="search">Search...</string>
+    <string name="search_asd">Search Name, Address, etc ...</string>
+    <string name="log_out">Logout</string>
+
+    <string name="guj">ગુજરાતી</string>
+    <string name="en">English</string>
+    <string name="en_l">Language Change</string>
+    <string name="turn_on">Turn On</string>
+    <string name="no_thanks">No Thanks</string>
+    <string name="email">Email Address</string>
+    <string name="en_email">Please Enter Email Address.</string>
+    <string name="en_name">Please Enter Name.</string>
+
+    <string name="password">Password</string>
+    <string name="en_password">Please Enter Password.</string>
+    <string name="c_password">confirm password</string>
+    <string name="en_c_password">Please Enter confirm password</string>
+    <string name="en_contact">Please Enter Contact No</string>
+    <string name="password_not_match">Password and confirm password does not match</string>
+
+
+    <string name="add_pet">Add Pet</string>
+    <string name="update_pet">Update Pet</string>
+
+    <string name="add_nutrition">Add Nutrition</string>
+    <string name="update_nutrition">Update Nutrition</string>
+
+
+    <string name="add_medical">Add Medical</string>
+    <string name="update_medical">Update Medical</string>
+
+    <string name="add_Grooming">Add Grooming</string>
+    <string name="update_Grooming">Update Grooming</string>
+
+    <string name="Image_a">Select Pet Photo</string>
+    <string name="medicale_image">Medical Description Photo</string>
+    <string name="remarks">Remarks</string>
+    <string name="pet_name">Pet Name</string>
+    <string name="other_breed">Other Breed</string>
+    <string name="other_Type">Other Type</string>
+    <string name="en_pet_name">Please Enter Pet Name</string>
+    <string name="en_other_type">Please Enter Other Type Name</string>
+
+    <string name="Nutrition">Nutrition</string>
+    <string name="Grooming">Grooming</string>
+    <string name="Medical_history">Medical History</string>
+
+    <string name="ListText">Item List</string>
+    <string name="Spend">Spend</string>
+    <string name="Spenddate">Spend date</string>
+    <string name="Remarks">Remarks</string>
+    <string name="MedicalDate">Medical Date</string>
+    <string name="ConditionDescription">Condition Description</string>
+
+    <string name="en_item_list">Please Enter Item List</string>
+
+    <!--*******************    old *********************-->
+
+    <string name="business">Business</string>
+    <string name="Business">Business</string>
+    <string name="BusinessName">Business Name</string>
+    <string name="BusinessAddress">Business Address</string>
+    <string name="Schoolname">School Name</string>
+    <string name="place_to_visit_a">Place To Visit</string>
+    <string name="Link">Link</string>
+    <string name="VisitForm">Visit Form</string>
+
+    <string name="Allocation">Allocation</string>
+    <string name="place_to_visit">Place To\nVisit</string>
+    <string name="completed_visit">Completed\nVisit</string>
+    <string name="completed_voluntiar_visit">Completed\nVolunteer Visit</string>
+    <string name="report_to_state">Report to\nFurry Track</string>
+    <string name="gallary">Gallary</string>
+    <string name="Awarness_program">Registration</string>
+    <string name="Awarness_program_a">Registration</string>
+    <string name="Task">Task</string>
+    <string name="completedTask">Completed\nTask</string>
+    <string name="completedTask_a">Completed Task</string>
+    <string name="TotalVolunteer">Total\nVolunteer</string>
+
+    <string name="EmailId">Email Id</string>
+    <string name="PresentPerson">Present Person</string>
+    <string name="NoOfPolicePresent">No Of Police Present</string>
+    <string name="Responce">Responce</string>
+    <string name="SchoolSeminarForm">Seminar Form</string>
+    <string name="volunteer_visit">Volunteer Visit Details</string>
+    <string name="volunteer_info">Volunteer Information</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="co_ordinator"> Co Ordinator</string>
+    <string name="VolunteerUnlawful">Volunteer Unlawful</string>
+    <string name="Expert">Expert</string>
+    <string name="AwarnessPromoter"> Awarness Promoter</string>
+    <string name="CategoryName">Category Name</string>
+    <string name="ContactNo">Contact No</string>
+    <string name="DateOfRegistration">Date Of Registration</string>
+    <string name="PoliceStationName">PoliceStation Name</string>
+    <string name="CurrentStatus">Current Status</string>
+    <string name="Title">Title</string>
+    <string name="Description">Description</string>
+    <string name="enddate">ToDate</string>
+    <string name="SelfGeneratedTask">Self Generated Task</string>
+    <string name="mesaage_to_team">Message To\nTeam</string>
+
+
+    <string name="load_more">Load More</string>
+    <!--<string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>-->
+
+
+</resources>

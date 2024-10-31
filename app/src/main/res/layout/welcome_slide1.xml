@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_abc"
+
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="@dimen/_70sdp"
+         />
+    <!--android:src="@drawable/icon"-->
+    <com.application.furry_track.CustomeView.custome_Textview_bold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/_19sdp"
+
+        android:paddingRight="@dimen/_15sdp"
+        android:text="@string/slide_1_title"
+        android:textColor="@color/app_color"
+        android:textSize="@dimen/_16sdp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_185sdp"
+        android:src="@drawable/welcom_a" />
+
+
+
+
+        <!--holder.txt_poli_name_ap.setText(Html.fromHtml("<font color=" + main_color + ">" + mContext.getResources().getString(R.string.Criminal_name) + " " + "</font>" + "<font color=" + sub_color + ">" + " " + item_list_add_contact.get(position).getCriminal_name() + "</font>"));-->
+        <com.application.furry_track.CustomeView.custome_Textview
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingRight="@dimen/_15sdp"
+            android:text="@string/slide_1_desc"
+            android:textColor="@color/chech_text"
+            android:textSize="@dimen/_13sdp" />
+
+
+
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>

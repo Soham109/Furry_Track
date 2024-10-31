@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.application.furry_track.CustomeView.custome_Textview
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_31sdp"
+    android:layout_marginTop="2dp"
+    android:background="@color/white"
+    android:gravity="center_vertical|left"
+
+    android:paddingLeft="@dimen/_8sdp"
+    android:singleLine="true"
+    android:textColor="@color/black"
+    android:textSize="@dimen/_13sdp" /><!--android:singleLine="true"-->
+    <!--android:background="@drawable/undetline"-->

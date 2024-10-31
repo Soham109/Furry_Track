@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!-- <androidx.appcompat.widget.Toolbar android:elevation="@dimen/_1sdp"
+         android:id="@+id/toolbar"
+         android:layout_width="match_parent"
+         android:layout_height="?android:attr/actionBarSize"
+         android:layout_alignParentRight="true"
+         android:background="?attr/colorPrimary"
+         android:gravity="center"
+         app:popupTheme="@style/ToolbarTheme"
+         app:theme="@style/ToolbarTheme" />-->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:elevation="@dimen/_1sdp"
+        android:theme="@style/ToolbarTheme" />
+
+    <im.delight.android.webview.AdvancedWebView
+
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.8" />
+
+
+</LinearLayout>
